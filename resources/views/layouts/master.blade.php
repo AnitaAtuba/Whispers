@@ -14,7 +14,7 @@
             <header class="sticky-top">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3" href="/whispers/index"><strong>Whispers</strong></a>
+                <a class="navbar-brand fs-3" href="{{route('home')}}"><strong>Whispers</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -22,7 +22,7 @@
                 <ul class="navbar-nav  me-auto">
                     @guest
                     <li class="nav-item">
-                    <a class="nav-link text-dark" aria-current="page" href="/whispers/index">Home</a>
+                    <a class="nav-link text-dark" aria-current="page" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link text-dark" href="{{route('login')}}">Login</a>
@@ -33,7 +33,7 @@
                     @endguest
                      @auth
                      <li class="nav-item">
-                    <a class="nav-link text-dark" aria-current="page" href="/whispers/index">Home</a>
+                    <a class="nav-link text-dark" aria-current="page" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link text-dark" href="{{route('whispers.post')}}">All Whispers</a>
