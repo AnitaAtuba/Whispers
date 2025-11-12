@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Whispers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Whispersgit\Post;
+use App\Models\Whispers\Post;
 
 
 class WhispersController extends Controller
@@ -14,7 +14,7 @@ class WhispersController extends Controller
      */
     public function index()
     {
-        //
+        
         $posts = Post::latest()->take(3)->get();
         return view("whispers.index", ['post'=> $posts]);
     }
