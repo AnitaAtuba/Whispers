@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\whispers;
+namespace App\Http\Controllers\Whispers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers\Whispers;
-use App\Models\whispers\Post;
-use App\Models\whispers\Like;
-use App\Models\whispers\Heart;
-use App\Models\whispers\Comment;
+use App\Models\Whispers\Post;
+use App\Models\Whispers\Like;
+use App\Models\Whispers\Heart;
+use App\Models\Whispers\Comment;
 use Illuminate\Support\Str;
 
 use App\Http\Controllers\Controller;

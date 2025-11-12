@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers\Whispers;
-use App\Models\whispers\Comment;
+use App\Models\Whispers\Comment;
 
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\whispers\Post;
+use App\Models\Whispers\Post;
 
 use Illuminate\Support\Facades\Auth;
 
