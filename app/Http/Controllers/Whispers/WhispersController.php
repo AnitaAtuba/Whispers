@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Whispers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Whispers\Post;
+use App\Models\Whispersgit\Post;
 
 
 class WhispersController extends Controller
