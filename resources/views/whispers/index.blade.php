@@ -12,7 +12,7 @@ Whispers:Homepage
     <div class="row">
             <div class="col">
                 <div class="hero">
-                     <img src="/whispers/image/2.jpg"  alt="hero">
+                     <img src="/whispers/image/2.jpg" class="img-fluid" alt="hero">
                       <div class="col hero-body">
                     <p class="hero-txt">Whispers</p>
                     <p class="mb-2 hero-msg">share your thoughts,desires and secrets...</p>
