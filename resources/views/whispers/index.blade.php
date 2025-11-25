@@ -9,30 +9,25 @@ Whispers:Homepage
  <!-- HERO -->
  
 <div class="container-fluid">
-    <div class="row">
-            <div class="col">
-                <div class="hero">
-                     <img src="/whispers/image/2.jpg" class="img-fluid" alt="hero">
-                      <div class="col hero-body">
+                <div class="hero position-relative text-left">
+                     <img src="/whispers/image/2.jpg" class="img-fluid w-100 hero-img" alt="hero">
+                <div class="hero-body ps-3">
                     <p class="hero-txt">Whispers</p>
-                    <p class="mb-2 hero-msg">share your thoughts,desires and secrets...</p>
-                    <a href="#" class="btn btn-outline-dark col-lg-6 p-2 fs-4">Join Whispers</a>
+                    <p class="hero-msg">share your thoughts,desires and secrets...</p>
+                    <a href="#" class="btn btn-outline-dark col-lg-8 col-md-6 hero-btn">Join Whispers</a>
                 </div>
-</div>
-            </div>
+                </div>
             <hr>
 
 </div>
 
- <br>
-  <br>
   <br>
 
 @endsection("hero")
 @section("content")
 <!-- CARD LISTING -->
-<div class="container-fluid my-5">
-    <div class="row my-5" align="center">
+<div class="container-fluid">
+    <div class="row my-3" align="center">
         <div class="col-md-4 mb-2">
             <div class="card py-4 shadow" style="height:200">
         <p class="text-center"><i class="fa-solid fa-handshake text-primary"></i></p>
@@ -62,9 +57,6 @@ Whispers:Homepage
         </div>
     </div>
 </div>
-<br>
-<br>
-<br>
    <!--TOP POST -->
    <div class="container-fluid my-5">
     <div class="row my-5">

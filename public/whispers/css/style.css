@@ -8,40 +8,64 @@ body{
     font-family:"Cascadia Mono", sans-serif,Verdana, Geneva, Tahoma;
     font-size:1em;
 }
+/* 
+div{
+    border:2px solid red;
+} */
 
 nav{
     min-height:70px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+
+.hero-body .hero-btn{
+font-size:1.5rem;
+color:#fbb34d;
+text-shadow: 0 0px 2px #b0b066;
 
 }
 
-.hero-txt{
+.hero-body .hero-txt{
+color:#fbb34d;
 font-weight:bold;
-font-size:4em;
+font-size:6rem;
+text-shadow: 0 5px 5px #62625e;
 
 }
 
-.hero-msg{
-font-size:2.4em;
+.hero-body .hero-msg{
+font-size:2.3rem;
 color:#00000088;
+text-shadow: 0 5px 5px #b0b066;
+
 }
 
-
-/* .hero img{
+.hero-body .hero img{
     position:relative;
-    width:100%;
-    height:100%
-} */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* object-position: center; */
+    /* filter: brightness(40%);  */
+}
 
 .hero-body{
     position:absolute;
-    top:200px;
+    top:50px;
     bottom:200px;
-    left:50px;
-    padding: 20px;
+    /* left:50px; */
+    padding: 10px;
     width:50%;
+    /* height:50%; */
 }
+
 .hero-body a{
-font-size:1.2em;
+font-size:1.2rem;
 }
 
 
@@ -106,28 +130,70 @@ footer{
     color:white;
 }
 
- @media (max-width: 576px) {
+
+
+@media(max-width: 575px) {
+   .hero-body .hero-img {
+        height: 300px;
+    }
+
+   .hero-body .hero-txt {
+        font-size: 2rem;
+    }
+
+  .hero-body .hero-msg {
+        font-size: 0.6rem;
+    }
+
     .hero-body{
     position:absolute;
-    top:80px;
-    left:20px;
-    /* background-color: #00000011; */
-    padding:5px;
-    border-radius: 10px;
+    top:0px;
+    bottom:0px;
+    padding: 0px;
+    width:50%;
+  }
+
+  .hero-body .hero-btn{
+  font-size:0.5rem;
 }
-.hero img{
-    position:relative;
-    width:100%;
-    height:100%
+
 }
-.hero-body a{
-font-size:1em;
+
+
+
+ @media (max-width: 768px) {
+
+ .hero-body  .hero-img {
+        height: 350px;
+    } 
+    
+.hero-body .hero-btn{
+font-size:0.6rem;
 }
-.hero-txt{
-font-weight:bold;
-font-size:2.3em;
+
+.hero-body .hero-txt{
+font-size:1.8rem;
 }
-.hero-msg{
-font-size:0.9em
+
+.hero-body .hero-msg{
+font-size:0.6rem;
 }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+    
+.hero-body .hero-btn{
+font-size:1.1rem;
+}
+
+.hero-body .hero-txt{
+font-size:4rem;
+}
+
+.hero-body .hero-msg{
+font-size:1.3rem;
+}
+
+
  }
