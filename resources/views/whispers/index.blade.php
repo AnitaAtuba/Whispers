@@ -17,7 +17,7 @@ Whispers:Homepage
                     <a href="{{route('register')}}" class="btn btn-outline-dark col-lg-8 col-md-6 hero-btn">Join Whispers</a>
                 </div>
                 </div>
-            <hr>"
+            <hr>
 
 </div>
 
